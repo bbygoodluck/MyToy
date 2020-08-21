@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="MyToy" Database="" Version="10000">
+  <Project Name="FireWorks" Path="FireWorks/FireWorks.project" Active="Yes"/>
+  <Project Name="SnowBall" Path="SnowBall/SnowBall.project"/>
+  <Project Name="Watch" Path="Watch/Watch.project"/>
+  <Project Name="MazeGenerator" Path="MazeGenerator/MazeGenerator.project"/>
+  <Project Name="LorenzAttractor" Path="LorenzAttractor/LorenzAttractor.project"/>
+  <Project Name="RosePattern" Path="RosePattern/RosePattern.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Environment/>
+      <Project Name="FireWorks" ConfigName="Debug"/>
+      <Project Name="SnowBall" ConfigName="Debug"/>
+      <Project Name="Watch" ConfigName="Debug"/>
+      <Project Name="MazeGenerator" ConfigName="Debug"/>
+      <Project Name="LorenzAttractor" ConfigName="Debug"/>
+      <Project Name="RosePattern" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="FireWorks" ConfigName="Release"/>
+      <Project Name="SnowBall" ConfigName="Release"/>
+      <Project Name="Watch" ConfigName="Release"/>
+      <Project Name="MazeGenerator" ConfigName="Release"/>
+      <Project Name="LorenzAttractor" ConfigName="Release"/>
+      <Project Name="RosePattern" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

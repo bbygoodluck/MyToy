@@ -1,0 +1,17 @@
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\include\c++\10.1.1
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\include\c++\10.1.1\x86_64-w64-mingw32
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\include\c++\10.1.1\backward
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\lib\gcc\x86_64-w64-mingw32\10.1.1\include
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\include
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\lib\gcc\x86_64-w64-mingw32\10.1.1\include-fixed
+-Ic:\MyData\programming\compiler\gcc\mingw64_gcc10.1.0\x86_64-w64-mingw32\include
+-IC:\MyData\Programming\MyProject\C++\CodeLite\MyToy\FireWorks
+-IC:\MyData\Programming\Lib\wxWidgets\wxWidgets-3.1.3\lib\gcc_dll\mswu
+-IC:\MyData\Programming\Lib\wxWidgets\wxWidgets-3.1.3\include
+-D_UNICODE
+-DWXUSINGDLL
+-D__WXMSW__
+-DNDEBUG
+-DHAVE_W32API_H
+-target
+x86_64-pc-windows-gnu
