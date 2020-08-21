@@ -48,11 +48,11 @@ private:
 		}
 
 		void Update(float fElaspsedTime)
-		{	//ºÒ²ÉÀÌ »ı¼ºµÈ ÈÄ ¶³¾îÁö´Â ¼Óµµ
+		{	//ë¶ˆê½ƒì´ ìƒì„±ëœ í›„ ë–¨ì–´ì§€ëŠ” ì†ë„
 			float fGravity = 25.0f;
-			//ÅÍÁøÈÄ ¹ú¾îÁö´Â XÀÇÅ©±â
+			//í„°ì§„í›„ ë²Œì–´ì§€ëŠ” Xì˜í¬ê¸°
 			float fDrag = 0.999f;
-			//ÅÍÁø ÈÄ ¹øÁö´Â yÀÇÅ©±â
+			//í„°ì§„ í›„ ë²ˆì§€ëŠ” yì˜í¬ê¸°
 			float fExplodedGravity = 45.0f;
 
 			lifetime += fElaspsedTime;
@@ -69,7 +69,7 @@ private:
 				{
 					bHasExploded = true;
 					//Explode
-					wxColour col = wxColour(rand() % 155 + 100, rand() % 240 + 15, rand() % 240 + 15);
+					wxColour col = wxColour(rand() % 100 + 155, rand() % 240 + 15, rand() % 240 + 15);
 
 					for (int i = 0; i < starCount; i++)
 					{
